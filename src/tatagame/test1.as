@@ -1,3 +1,4 @@
+//test1
 package tatagame
 {
 	import gtool.GTool;
