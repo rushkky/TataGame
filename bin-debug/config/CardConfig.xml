@@ -1,0 +1,73 @@
+<data>
+	<!-- 角色 id="角色ID" res="角色资源" sid="角色技能（被动）" up="成长值" des="角色描述"-->
+	<roles>
+		<i id="10001" res="1" sid="10001" up="0.001" des="角色1描述：初始给全部卡牌增加1%攻击力，每升1级+0.1%"/>
+		<i id="10002" res="2" sid="10002" up="0.001" des="角色2描述：初始给全部卡牌增加1%防御力，每升1级+0.1%"/>
+		<i id="10003" res="3" sid="10003" up="0.001" des="角色3描述：初始给全部卡牌增加1%技能伤害，每升1级+0.1%"/>
+		<i id="10004" res="4" sid="10004" up="0.001" des="角色4描述：初始给全部卡牌增加1%闪避，每升1级+0.1%"/>
+		<i id="10005" res="5" sid="10005" up="0.001" des="角色5描述：初始给全部卡牌增加1%暴击，每升1级+0.1%"/>
+		<i id="10006" res="6" sid="10006" up="0.001" des="角色6描述：初始给全部卡牌增加1%生命值，每升1级+0.1%"/>
+		<i id="10007" res="7" sid="10007" up="0.001" des="角色7描述：初始给全部卡牌增加1%魔法值，每升1级+0.1%"/>
+		<i id="10008" res="8" sid="10008" up="0.001" des="角色8描述：初始给全部卡牌增加1%行动速度，每升1级+0.1%"/>
+	</roles>
+	<!-- 正常卡牌 id="卡牌ID" name="卡牌名称" quality="卡牌品质（品质越好属性越好）"des="卡牌描述" exp="卡牌产出的经验" upexp="卡牌需要的经验" lev="卡牌星级" res="卡牌资源" hp="生命值" mp="魔法值" speed="行动速度（大先出手，相等情况下看站位）"attack="攻击力" defense="防御力" nsid="普通技能（技能格式id+技能类型[n:1,f:2,p:3]+quality+lev）" fsid="终极技能（技能格式id+技能类型[n:1,f:2,p:3]+quality+lev）" psid="被动技能（技能格式id+技能类型[n:1,f:2,p:3]+quality+lev）"-->
+	<cards>
+		<item id="20001" name="敌法师" quality="1" des="卡牌20001描述">
+			<i lev="1" exp="10" upexp="0" res="20001_1" hp="100" mp="100" speed="1000" attack="10" defense="10" nsid="20001111" fsid="20001211" psid="20001311" />
+			<i lev="2" exp="20" upexp="100" res="20001_2" hp="200" mp="200" speed="1010" attack="20" defense="20" nsid="20001112" fsid="20001212" psid="20001312" />
+			<i lev="3" exp="30" upexp="300" res="20001_3" hp="300" mp="300" speed="1020" attack="30" defense="30" nsid="20001113" fsid="20001213" psid="20001313" />
+			<i lev="4" exp="40" upexp="700" res="20001_4" hp="400" mp="400" speed="1030" attack="40" defense="40" nsid="20001114" fsid="20001214" psid="20001314" />
+			<i lev="5" exp="50" upexp="1500" res="20001_5" hp="500" mp="500" speed="1040" attack="50" defense="50" nsid="20001115" fsid="20001215" psid="20001315" />
+			<i lev="6" exp="60" upexp="3100" res="20001_6" hp="600" mp="600" speed="1050" attack="60" defense="60" nsid="20001116" fsid="20001216" psid="20001316" />
+			<i lev="7" exp="0" upexp="6300" res="20001_7" hp="700" mp="700" speed="1060" attack="70" defense="70" nsid="20001117" fsid="20001217" psid="20001317" />
+		</item>
+		<item id="20001" name="敌法师" quality="2" des="卡牌20001描述">
+			<i lev="1" exp="20" upexp="0" res="20001_1" hp="150" mp="150" speed="1010" attack="12" defense="12" nsid="20001121" fsid="20001221" psid="20001321" />
+			<i lev="2" exp="40" upexp="200" res="20001_2" hp="250" mp="250" speed="1020" attack="24" defense="24" nsid="20001122" fsid="20001222" psid="20001322" />
+			<i lev="3" exp="60" upexp="600" res="20001_3" hp="350" mp="350" speed="1030" attack="36" defense="36" nsid="20001123" fsid="20001223" psid="20001323" />
+			<i lev="4" exp="80" upexp="1400" res="20001_4" hp="450" mp="450" speed="1040" attack="48" defense="48" nsid="20001124" fsid="20001224" psid="20001324" />
+			<i lev="5" exp="100" upexp="3000" res="20001_5" hp="5500" mp="550" speed="1050" attack="60" defense="60" nsid="20001125" fsid="20001225" psid="20001325" />
+			<i lev="6" exp="120" upexp="6200" res="20001_6" hp="650" mp="650" speed="1060" attack="72" defense="72" nsid="20001126" fsid="20001226" psid="20001326" />
+			<i lev="7" exp="0" upexp="12600" res="20001_7" hp="750" mp="750" speed="1070" attack="84" defense="84" nsid="20001127" fsid="20001227" psid="20001327" />
+		</item>
+		<item id="20002" name="宙斯" quality="1" des="卡牌20002描述">
+			<i lev="1" exp="10" upexp="0" res="20002_1" hp="100" mp="100" speed="1000" attack="10" defense="10" nsid="20002111" fsid="20002211" psid="" />
+			<i lev="2" exp="20" upexp="100" res="20002_2" hp="200" mp="200" speed="1010" attack="20" defense="20" nsid="20002112" fsid="20002212" psid="" />
+			<i lev="3" exp="30" upexp="300" res="20002_3" hp="300" mp="300" speed="1020" attack="30" defense="30" nsid="20002113" fsid="20002213" psid="" />
+			<i lev="4" exp="40" upexp="700" res="20002_4" hp="400" mp="400" speed="1030" attack="40" defense="40" nsid="20002114" fsid="20002214" psid="" />
+			<i lev="5" exp="50" upexp="1500" res="20002_5" hp="500" mp="500" speed="1040" attack="50" defense="50" nsid="20002115" fsid="20002215" psid="" />
+			<i lev="6" exp="60" upexp="3100" res="20002_6" hp="600" mp="600" speed="1050" attack="60" defense="60" nsid="20002116" fsid="20002216" psid="" />
+			<i lev="7" exp="70" upexp="6300" res="20002_7" hp="700" mp="700" speed="1060" attack="70" defense="70" nsid="20002117" fsid="20002217" psid="" />
+		</item>
+	</cards>
+	<!-- 特殊卡牌 id="卡牌ID" name="卡牌名称" quality="卡牌品质（品质越好属性越好）"des="卡牌描述" lev="卡牌星级" res="卡牌资源" sid="卡牌技能（技能格式id+quality+lev）" -->
+	<cardsex>
+		<item id="30001" name="全军咆哮" quality="1" des="特殊卡牌30001描述">
+			<i lev="1" exp="10" upexp="0" res="30001_1" sid="3000111"/>
+			<i lev="2" exp="20" upexp="100" res="30001_2" sid="3000112"/>
+			<i lev="3" exp="30" upexp="300" res="30001_3" sid="3000113"/>
+			<i lev="4" exp="40" upexp="700" res="30001_4" sid="3000114"/>
+			<i lev="5" exp="50" upexp="1500" res="30001_5" sid="3000115"/>
+			<i lev="6" exp="60" upexp="3100" res="30001_6" sid="3000116"/>
+			<i lev="7" exp="70" upexp="6300" res="30001_7" sid="3000117"/>
+		</item>
+		<item id="30001" name="全军咆哮" quality="2" des="特殊卡牌30001描述">
+			<i lev="1" exp="20" upexp="0" res="30001_1" sid="3000121"/>
+			<i lev="2" exp="40" upexp="200" res="30001_2" sid="3000122"/>
+			<i lev="3" exp="60" upexp="600" res="30001_3" sid="3000123"/>
+			<i lev="4" exp="80" upexp="1400" res="30001_4" sid="3000124"/>
+			<i lev="5" exp="100" upexp="3000" res="30001_5" sid="3000125"/>
+			<i lev="6" exp="120" upexp="6200" res="30001_6" sid="3000126"/>
+			<i lev="7" exp="0" upexp="12600" res="30001_7" sid="3000127"/>
+		</item>
+		<item id="30002" name="坚固堡垒" quality="1" des="特殊卡牌30002描述">
+			<i lev="1" exp="10" upexp="0" res="30002_1" sid="3000211"/>
+			<i lev="2" exp="20" upexp="100" res="30002_2" sid="3000212"/>
+			<i lev="3" exp="30" upexp="300" res="30002_3" sid="3000213"/>
+			<i lev="4" exp="40" upexp="700" res="30002_4" sid="3000214"/>
+			<i lev="5" exp="50" upexp="1500" res="30002_5" sid="3000215"/>
+			<i lev="6" exp="60" upexp="3100" res="30002_6" sid="3000216"/>
+			<i lev="7" exp="70" upexp="6300" res="30002_7" sid="3000217"/>
+		</item>
+	</cardsex>
+</data>
